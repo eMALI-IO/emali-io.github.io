@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile /home/emaliiof19/domains/emali.io/private_html/demos/clinic/.htpasswd
+Require valid-user

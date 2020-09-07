@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+	<link href="css/styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<div>
+		<div id="content">
+
+			<div class="nav">
+				<div class="left">
+					<h1 style="display:inline-block;">ZKP3 Registration</h1>
+				</div>
+			</div>
+			
+			<div class="inner-content">
+					<div class="attribute first">
+						<div class="attr-content left">
+							<h3>Please Fill All the Fields below</h3>
+							<div class="divider"></div>
+						</div>
+					</div>
+					<div class="attribute">
+						<div class="attr-content field left">
+							<input type="text" placeholder="YOUR NAME..." onfocus="this.placeholder=''" onblur="this.placeholder='YOUR NAME...'">
+							<div class="divider"></div>
+						</div>
+					</div>
+					<div class="attribute">
+						<div class="attr-content field left">
+							<input type="text" placeholder="YOUR HKID / PASSPORT NUMBER..." onfocus="this.placeholder=''" onblur="this.placeholder='YOUR HKID / PASSPORT NUMBER...'">
+							<div class="divider"></div>
+						</div>
+					</div>		
+					<div class="attribute">
+						<div class="attr-content field left">
+							<input type="text" placeholder="YOUR DATE OF BIRTH..." onfocus="this.placeholder=''" onblur="this.placeholder='YOUR ATE OF BIRTH...'">
+							<div class="divider"></div>
+						</div>
+					</div>
+					<div class="attribute" style="height: 53px;">
+						<div class="attr-content field left">
+							<h3>YOUR Gender</h3>
+							<div class="radio">
+								<input type="radio" name="gender" id="male"> 
+								<label for="male" class="radio-label">Male</label>
+							</div>
+							<div class="radio">
+								<input type="radio" name="gender" id="female"> 
+								<label for="female" class="radio-label">Female</label>
+							</div>
+							<div class="divider"></div>
+						</div>
+					</div>	
+					<div class="attribute">
+						<div class="attr-content field left">
+							<input type="text" placeholder="YOUR CONTACT NUMBER..." onfocus="this.placeholder=''" onblur="this.placeholder='YOUR CONTACT NUMBER...'">
+							<div class="divider"></div>
+						</div>
+					</div>	
+<!-- 					<div class="attribute" style="height:67px;">
+						<div class="attr-content field left">
+							<h3 style="margin-bottom: 10px;">UPLOAD EMPLOYEE PROOF</h3>
+							<div class='file-input'>
+							  <input type='file'>
+							  <span class='button'>Choose</span>
+							  <span class='label' data-js-label>No file selected</label>
+							</div>
+							<div class="divider"></div>
+						</div>
+					</div> -->
+					<div class="attribute" style="height:67px;">
+						<div class="attr-content field left">
+							<h3 style="margin-bottom: 10px;">UPLOAD INSURANCE PROOF</h3>
+							<div class='file-input'>
+							  <input type='file'>
+							  <span class='button'>Choose</span>
+							  <span class='label' data-js-label>No file selected</label>
+							</div>
+							<div class="divider"></div>
+						</div>
+					</div>
+					<div class="attribute checkbox" style="height: 90px;">
+						<div class="attr-content field left">
+							<input type="checkbox">I agree to terms and conditions
+							<a href="finish.html"><button class="btn">SUBMIT</button></a>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		var inputs = document.querySelectorAll('.file-input')
+
+		for (var i = 0, len = inputs.length; i < len; i++) {
+		customInput(inputs[i])
+		}
+
+		function customInput (el) {
+		const fileInput = el.querySelector('[type="file"]')
+		const label = el.querySelector('[data-js-label]')
+
+		fileInput.onchange =
+		fileInput.onmouseout = function () {
+		if (!fileInput.value) return
+
+		var value = fileInput.value.replace(/^.*[\\\/]/, '')
+		el.className += ' -chosen'
+		label.innerText = value
+		}
+		}
+	</script>
+</body>
+</html>

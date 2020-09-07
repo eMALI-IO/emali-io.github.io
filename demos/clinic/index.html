@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>eMALI.IO ZKP3 Claim Management System</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="node_modules/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="node_modules/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="node_modules/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="node_modules/perfect-scrollbar/css/perfect-scrollbar.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <style>
+    form {
+        margin: 20px 0;
+    }
+
+    .insurance .form-check-inline {
+        margin: 0 5px 10px 0;
+        display: inline-block !important;
+    }
+
+    .insurance [type="checkbox"] {
+        display: none;
+    }
+
+    .insurance .form-check-label {
+    }
+
+    .insurance .form-check-label::before {
+        display: inline-block;
+        margin-right: 2px;
+        content: '+';
+    }
+
+    .insurance [type="checkbox"]:not(:checked) + .form-check-label,
+    .insurance [type="checkbox"]:not(:checked) + .form-check-label:hover {
+        background-color: transparent;
+        color: #363636;
+        border-color: currentColor;
+    }
+
+    .insurance [type="checkbox"]:checked + .form-check-label::before {
+        transform: rotate(45deg);
+    }
+
+    pre code {
+        display: block;
+        margin: 2em 0;
+        border-radius: 0.25rem;
+        padding: 1em 2em;
+        background: #33333f;
+        color: ghostwhite;
+    }
+
+    .btn-danger, .btn-danger:hover {
+        background-color:#24d5d8;
+        border-color:#24d5d8;
+    }
+</style>
+</head>
+
+<body>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper">
+            <div class="row">
+                <div class="content-wrapper full-page-wrapper d-flex align-items-center auth">
+                    <div class="row w-100">
+                        <div class="col-lg-10 mx-auto">
+                            <div class="row">
+                                <div class="col-12 bg-white mx-auto pt-4" style="text-align: center;">
+                                    <img src="images/emali-logo.png" alt="emali logo" style="width: 12%;margin: 0 auto 20px;display: block;"/>
+                                    <h2>Registration for Dr.LEE Chi Nan Clinic</h2>
+                                    <h4 class="font-weight-light">Hello Dr.Lee, Let's Get Started</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 bg-white mx-auto">
+                                    <div class="auth-form-light text-left p-4">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">E-mail</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                                <i class="mdi mdi-account"></i>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Phone Number</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                                <i class="mdi mdi-account"></i>
+                                            </div>
+                                            <div class="form-group insurance">
+                                                <label style="display:block; margin-bottom:20px;" for="exampleInputEmail1">Insurances To Include</label>
+                                                <div class="form-check form-check-inline">
+                                                    <input type="checkbox" id="AIA" value="AIA" checked>
+                                                    <label class="form-check-label btn btn-danger" for="AIA">AIA</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input type="checkbox" id="asia" value="ASIA Insurance" checked>
+                                                    <label class="form-check-label btn btn-danger" for="asia">ASIA Insurance</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input type="checkbox" id="axa" value="AXA" checked>
+                                                    <label class="form-check-label btn btn-danger" for="axa">AXA</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input type="checkbox" id="bupa" value="BUPA" checked>
+                                                    <label class="form-check-label btn btn-danger" for="bupa">BUPA</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input type="checkbox" id="fwd" value="FWD" checked>
+                                                    <label class="form-check-label btn btn-danger" for="fwd">FWD</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input type="checkbox" id="manulife" value="Manulife" checked>
+                                                    <label class="form-check-label btn btn-danger" for="manulife">Manulife</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input type="checkbox" id="pacific" value="Pacific Insurance" checked>
+                                                    <label class="form-check-label btn btn-danger" for="pacific">Pacific Insurance</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input type="checkbox" id="Prudential" value="Prudential" checked>
+                                                    <label class="form-check-label btn btn-danger" for="Prudential">Prudential</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input type="checkbox" id="Zurich" value="Zurich" checked>
+                                                    <label class="form-check-label btn btn-danger" for="Zurich">Zurich</label>
+                                                </div>
+                                            </div>               
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 bg-white mx-auto">
+                                    <div class="auth-form-light text-left p-4">
+                                        <h2></h2>
+                                        <h4 class="font-weight-light"></h4>
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Username</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                                <i class="mdi mdi-account"></i>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                                                <i class="mdi mdi-eye"></i>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword2">Re-Confirm Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="">
+                                                <i class="mdi mdi-eye"></i>
+                                            </div>
+                                            <div class="mt-5">
+                                                <a class="btn btn-block btn-primary btn-lg font-weight-medium" href="dashboard.html">Register</a>
+                                            </div>
+                                            <div>
+                                                <div class="form-check form-check-flat">
+                                                    <label class="form-check-label">
+                                                        <input type="checkbox" class="form-check-input" style="opacity:1; margin-left:0; margin-top:5px;">
+                                                        I accept <a href="" style="text-decoration: underline; color: #24d5d8;">terms and conditions</a>
+                                                    </label>
+                                                </div>
+                                            </div>                 
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content-wrapper ends -->
+            </div>
+            <!-- row ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+    <!-- endinject -->
+    <!-- inject:js -->
+    <script src="js/off-canvas.js"></script>
+    <script src="js/hoverable-collapse.js"></script>
+    <script src="js/misc.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>

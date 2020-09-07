@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>eMALI.IO ZKP3 Claim Management System</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="node_modules/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="node_modules/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="node_modules/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="node_modules/perfect-scrollbar/css/perfect-scrollbar.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <style>
+    form {
+        margin: 20px 0;
+    }
+
+    .insurance .form-check-inline {
+        margin: 0 5px 10px 0;
+        display: inline-block !important;
+    }
+
+    .insurance [type="checkbox"] {
+        display: none;
+    }
+
+    .insurance .form-check-label {
+    }
+
+    .insurance .form-check-label::before {
+        display: inline-block;
+        margin-right: 2px;
+        content: '+';
+    }
+
+    .insurance [type="checkbox"]:not(:checked) + .form-check-label,
+    .insurance [type="checkbox"]:not(:checked) + .form-check-label:hover {
+        background-color: transparent;
+        color: #363636;
+        border-color: currentColor;
+    }
+
+    .insurance [type="checkbox"]:checked + .form-check-label::before {
+        transform: rotate(45deg);
+    }
+
+    pre code {
+        display: block;
+        margin: 2em 0;
+        border-radius: 0.25rem;
+        padding: 1em 2em;
+        background: #33333f;
+        color: ghostwhite;
+    }
+
+    .btn-danger, .btn-danger:hover {
+        background-color:#24d5d8;
+        border-color:#24d5d8;
+    }
+</style>
+</head>
+
+<body>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper">
+            <div class="row">
+                <div class="content-wrapper full-page-wrapper d-flex align-items-center auth">
+                    <div class="row w-100">
+                        <div class="col-lg-10 mx-auto">
+                            <div class="row">
+                                <div class="col-12 bg-white mx-auto pt-4" style="text-align: center;">
+                                    <img src="images/emali-logo.png" alt="emali logo" style="width: 12%;margin: 0 auto 20px;display: block;"/>
+                                    <h2>Registration for XYZ company limited</h2>
+                                    <h4 class="font-weight-light">Hello, Let's Get Started</h4>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 bg-white mx-auto">
+                                    <div class="auth-form-light text-left p-4">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Company Representative Name</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                                <i class="mdi mdi-account"></i>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Contact E-Mail</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                                <i class="mdi mdi-account"></i>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Contact Number</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                                <i class="mdi mdi-account"></i>
+                                            </div> 
+                                            <div class="mt-5">
+                                                <a class="btn btn-block btn-primary btn-lg font-weight-medium" href="dashboard.html">Register</a>
+                                            </div>
+                                            <div>
+                                                <div class="form-check form-check-flat">
+                                                    <label class="form-check-label">
+                                                        <input type="checkbox" class="form-check-input" style="opacity:1; margin-left:0; margin-top:5px;">
+                                                        I accept <a href="" style="text-decoration: underline; color: #24d5d8;">terms and conditions</a>
+                                                    </label>
+                                                </div>
+                                            </div>            
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 bg-white mx-auto">
+                                    <div class="auth-form-light text-left p-4">
+                                        <h2></h2>
+                                        <h4 class="font-weight-light"></h4>
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Username</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                                <i class="mdi mdi-account"></i>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                                                <i class="mdi mdi-eye"></i>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword2">Re-Confirm Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="">
+                                                <i class="mdi mdi-eye"></i>
+                                            </div>                 
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content-wrapper ends -->
+            </div>
+            <!-- row ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+    <!-- endinject -->
+    <!-- inject:js -->
+    <script src="js/off-canvas.js"></script>
+    <script src="js/hoverable-collapse.js"></script>
+    <script src="js/misc.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>

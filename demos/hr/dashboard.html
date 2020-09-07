@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>eMALI.IO Clinic System</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="images/favicon.png" />
+</head>
+<body>
+  <div class="container-scroller">
+    <!-- partial:partials/_navbar.html -->
+    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+      <div class="text-center navbar-brand-wrapper">
+        <a class="navbar-brand brand-logo" href="index.html"><!-- <img src="images/emali-logo-horzontal.png" alt="logo"> -->
+        <span style="font-size:12px; display:block; font-weight:bold; letter-spacing:2px; text-transform:uppercase;">XYZ Company Limited</span>
+        </a>
+        <a class="navbar-brand brand-logo-mini" href="index.html"><!-- <img src="images/emali-logo.png" alt="logo"> -->
+        <span style="font-size:12px; display:block; font-weight:bold; letter-spacing:2px; text-transform:uppercase;">XYZ Company Limited</span>
+        </a>
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <div class="row row-offcanvas row-offcanvas-right">
+        <!-- partial:partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item nav-category">
+              <span class="nav-link">Employee Management</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="background-color: #24d5d8; color:white;"
+              href="">
+                <span class="menu-title">Employees</span>
+              </a>
+            </li>
+            <li class="nav-item nav-category">
+              <span class="nav-link">User Management</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">
+                <span class="menu-title">Staff Accounts</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">
+                <span class="menu-title">Change Password</span>
+              </a>
+            </li>
+            <li class="nav-item nav-category">
+              <span class="nav-link">Logout</span>
+            </li>
+          </ul>
+        </nav>
+        <!-- partial -->
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-lg-12 grid-margin">
+              <div class="card">
+                <div class="card-body">
+                <button type="button" style="position: absolute; right:20px; top:20px;" class="btn btn-primary btn-fw" data-toggle="modal" data-target="#exampleModal">+ Add New Employee</button>
+                  <h2 class="card-title">Active Employees</h2>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>HKID / Passport</th>
+                          <th>Date Of Birth</th>
+                          <th>Gender</th>
+                          <th>Contact Number</th>
+                          <th>E-mail</th>
+                          <th>Employment Proof #</th>
+                          <th>Policy Proof #</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="d-flex align-items-center justify-content-between flex-wrap">
+                    <p class="mb-0" style="margin-top:20px;">Showing 1 to 1 of 0 entries</p>
+<!--                     <nav>
+                      <ul class="pagination rounded-separated pagination-info mt-3">
+                        <li class="page-item"><a class="page-link" href="#"><i class="mdi mdi-chevron-left"></i></a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#"><i class="mdi mdi-chevron-right"></i></a></li>
+                      </ul>
+                    </nav> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ROW ENDS -->
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:partials/_footer.html -->
+        <!-- partial -->
+      </div>
+      <!-- row-offcanvas ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>New Employee</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="card">
+            <div class="card-body">
+              <form class="forms-sample">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="HKID / Passport #">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Date Of Birth">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Gender">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Contact Number">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                  <input type="file" name="img[]" class="file-upload-default">
+                  <div class="input-group col-xs-12">
+                    <input type="text" class="form-control file-upload-info" disabled="" placeholder="Employment Proof">
+                    <span class="input-group-append">
+                      <button class="file-upload-browse btn btn-info" type="button">Upload</button>
+                    </span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="file" name="img[]" class="file-upload-default">
+                  <div class="input-group col-xs-12">
+                    <input type="text" class="form-control file-upload-info" disabled="" placeholder="Insurance Proof">
+                    <span class="input-group-append">
+                      <button class="file-upload-browse btn btn-info" type="button">Upload</button>
+                    </span>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-success mr-2">Submit</button>
+                <button class="btn btn-light">Cancel</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
