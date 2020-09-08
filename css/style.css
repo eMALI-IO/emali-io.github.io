@@ -3888,3 +3888,10 @@ h3 span {
 		margin-bottom: 10px;
 	}
 }
+
+/* added */
+@media only screen and (max-width: 1140px) {
+	.logo .no-transition {
+		margin-right: 0px;
+	}
+}
