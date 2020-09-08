@@ -3889,9 +3889,8 @@ h3 span {
 	}
 }
 
-/* added */
 @media only screen and (max-width: 1140px) {
-	.logo .no-transition {
-		margin-right: 0px;
+	.logo {
+	  margin-right: 0px !important;
 	}
-}
+  }
