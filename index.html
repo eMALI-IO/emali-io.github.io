@@ -124,7 +124,7 @@
 
             <!-- Header -->
             <header class="header header-fixed header-transparent header-fixed-on-mobile no-transition header-animated"
-                data-sticky-threshold="100" data-bkg-threshold="400" style="height: 100px;">
+                id="checkHeaderClass" data-sticky-threshold="100" data-bkg-threshold="400" style="height: 100px;">
                 <div class="header-inner no-transition">
                     <div class="row nav-bar">
                         <div class="column width-12 nav-bar-inner">
@@ -150,9 +150,6 @@
                             </nav>
                             <nav class="navigation nav-block primary-navigation nav-right no-transition">
                                 <ul>
-                                    <li class="current">
-                                        <a href="./index.html">Home</a>
-                                    </li>
                                     <li class="">
                                         <a href="./about.html">About Us</a>
                                     </li>
@@ -160,19 +157,23 @@
                                         <a href="./solutions.html">Solutions</a>
                                     </li>
                                     <li class="">
+                                        <a href="./plans.html">Plans</a>
+                                    </li>
+                                    <li class="">
                                         <a href="./partners.html">Partners</a>
                                     </li>
-                                    <li class="">
-                                        <a href="./news.html">News</a>
+                                    <li class="dropdown fm-set">
+                                        <a class="dropbtn" onclick="location.href='./news.html'">- News</a>
+                                        <div class=" dropdown-content dropdown-content2" id="scroll-fix2">
+                                            <a href="./press.html">Press Release</a>
+                                        </div>
                                     </li>
-                                    <li class="">
-                                        <a href="./press.html">Press Release</a>
-                                    </li>
-                                    <li class="">
-                                        <a href="./workshops.html">Workshops</a>
-                                    </li>
-                                    <li class="">
-                                        <a href="./training.html">Training</a>
+                                    <li class="dropdown fm-set">
+                                        <a class="dropbtn" onclick="location.href='./workshops.html'">- Workshops
+                                        </a>
+                                        <div class=" dropdown-content dropdown-content2" id="scroll-fix1">
+                                            <a href="./training.html">Training</a>
+                                        </div>
                                     </li>
                                     <li class="">
                                         <a href="./contact.html">Contact</a>
@@ -202,7 +203,7 @@
                                 <div class="tms-content">
                                     <div class="tms-content-inner left left-on-mobile v-align-middle">
                                         <div class="row">
-                                            <div class="column width-12 tms-perspective">
+                                            <div class="column width-12 tms-perspective" id="scroll-to">
                                                 <h1 class="tms-caption color-white weight-light mb-0 no-scale"
                                                     data-animate-in="preset:fadeIn;duration:1000ms;delay:100ms;"
                                                     data-no-scale=""
@@ -256,8 +257,10 @@
                 <div id="intro" class="section-block replicable-content">
                     <div class="row flex">
                         <div class="column width-12 center">
-                            <p class="lead">EMALI is an enterprise technology company that develops, licenses, supports, and delivers<br>
-                                fintech software, solutions, and related services to the Asia Pacific region and beyond,<br>
+                            <p class="lead">EMALI is an enterprise technology company that develops, licenses, supports,
+                                and delivers<br>
+                                fintech software, solutions, and related services to the Asia Pacific region and
+                                beyond,<br>
                                 specializing in AI, blockchain, cryptography, security, and privacy technologies.</p>
                         </div>
                         <div class="column width-6" style="padding: 30px;">
@@ -266,7 +269,9 @@
                                         src="./EMALI _ Leaders in the Fintech Evolution_files/colored_servers-96.png"></span>
                                 <div class="feature-text">
                                     <h4>Fintech Software</h4>
-                                    <p class="mb-30 mb-mobile-50">We assist enterprises in leveraging financial technology and developing software that can deliver maximum value to their business.</p>
+                                    <p class="mb-30 mb-mobile-50">We assist enterprises in leveraging financial
+                                        technology and developing software that can deliver maximum value to their
+                                        business.</p>
                                 </div>
                             </div>
                         </div>
@@ -276,7 +281,9 @@
                                         src="./EMALI _ Leaders in the Fintech Evolution_files/colored_calculator-81.png"></span>
                                 <div class="feature-text">
                                     <h4>Fintech Solutions</h4>
-                                    <p class="mb-30 mb-mobile-50">We work closely together with our clients to focus on creating streamlined processes for solving their current business challenges.</p>
+                                    <p class="mb-30 mb-mobile-50">We work closely together with our clients to focus on
+                                        creating streamlined processes for solving their current business challenges.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -292,7 +299,8 @@
                                 <span class="fintech-icons"><img
                                         src="./EMALI _ Leaders in the Fintech Evolution_files/colored_big_data-94.png"></span>
                                 <h4 class="color-grey">Artificial Intelligence</h4>
-                                <p class="mb-mobile-30">We develop AI and machine learning tools to automate mundane processes and utilise big data to make better decisions for our clients.</p>
+                                <p class="mb-mobile-30">We develop AI and machine learning tools to automate mundane
+                                    processes and utilise big data to make better decisions for our clients.</p>
                             </div>
                         </div>
                         <div class="column width-6 mb-30">
@@ -300,7 +308,8 @@
                                 <span class="fintech-icons"><img
                                         src="./EMALI _ Leaders in the Fintech Evolution_files/colored_blockchain-93.png"></span>
                                 <h4 class="color-grey">Blockchain</h4>
-                                <p class="mb-mobile-30">We provide the most suitable blockchain components to build decentralized solutions for solving current business challenges.</p>
+                                <p class="mb-mobile-30">We provide the most suitable blockchain components to build
+                                    decentralized solutions for solving current business challenges.</p>
                             </div>
                         </div>
                         <div class="column width-6">
@@ -308,7 +317,8 @@
                                 <span class="fintech-icons"><img
                                         src="./EMALI _ Leaders in the Fintech Evolution_files/colored_crypto-92.png"></span>
                                 <h4 class="color-grey">Cryptography</h4>
-                                <p class="mb-mobile-30">We utilise various cryptographic practices, such as zero-knowledge proof, to ensure the security and privacy of each transaction.</p>
+                                <p class="mb-mobile-30">We utilise various cryptographic practices, such as
+                                    zero-knowledge proof, to ensure the security and privacy of each transaction.</p>
                             </div>
                         </div>
                         <div class="column width-6">
@@ -316,7 +326,8 @@
                                 <span class="fintech-icons"><img
                                         src="./EMALI _ Leaders in the Fintech Evolution_files/colored_retina_scan-99.png"></span>
                                 <h4 class="color-grey">Privacy</h4>
-                                <p class="mb-mobile-30">We deploy best practices which address privacy protection and prevention of security breaches from malicious parties. </p>
+                                <p class="mb-mobile-30">We deploy best practices which address privacy protection and
+                                    prevention of security breaches from malicious parties. </p>
                             </div>
                         </div>
                     </div>
@@ -349,8 +360,7 @@
                                                         data-hover-speed="700" data-hover-bkg-color="#000000"
                                                         data-hover-bkg-opacity="0.3">
                                                         <a class="overlay-link"
-                                                            href="./news.html#emali-io-launches-gdpr-compliant-health-insurance-claims-system-mediflow"
-                                                           >
+                                                            href="./news.html#emali-io-launches-gdpr-compliant-health-insurance-claims-system-mediflow">
                                                             <img src="./images/homeLatestNews/dsc_0679.jpg"
                                                                 alt="Emali.io Launches GDPR-Compliant Health Insurance Claims System - Mediflow" />
                                                         </a>
@@ -358,12 +368,18 @@
                                                 </div>
                                                 <div class="post-content with-background">
                                                     <h2 class="post-title">
-                                                        <a href="./news.html#emali-io-launches-gdpr-compliant-health-insurance-claims-system-mediflow">EMALI Launches GDPR-Compliant Health Insurance Claims System - Mediflow</a>
+                                                        <a
+                                                            href="./news.html#emali-io-launches-gdpr-compliant-health-insurance-claims-system-mediflow">EMALI
+                                                            Launches GDPR-Compliant Health Insurance Claims System -
+                                                            Mediflow</a>
                                                     </h2>
                                                     <div class="post-info">
                                                         <span class="post-date">Nov, 2018</span>
                                                     </div>
-                                                    <a href="./news.html#emali-io-launches-gdpr-compliant-health-insurance-claims-system-mediflow">READ MORE <span class="icon-arrow-long-right" style="margin-left: 5px;"></span></a>
+                                                    <a
+                                                        href="./news.html#emali-io-launches-gdpr-compliant-health-insurance-claims-system-mediflow">READ
+                                                        MORE <span class="icon-arrow-long-right"
+                                                            style="margin-left: 5px;"></span></a>
                                                 </div>
                                             </article>
                                         </div>
@@ -374,8 +390,7 @@
                                                         data-hover-speed="700" data-hover-bkg-color="#000000"
                                                         data-hover-bkg-opacity="0.3">
                                                         <a class="overlay-link"
-                                                            href="./news.html#emali-io-winners-of-the-zurich-hk-innovation-program-local-round"
-                                                           >
+                                                            href="./news.html#emali-io-winners-of-the-zurich-hk-innovation-program-local-round">
                                                             <img src="./images/homeLatestNews/zurich-competition.jpg"
                                                                 alt="Emali.io - Zurich Innovation World Championship Regional Winner (HK)" />
                                                         </a>
@@ -383,11 +398,17 @@
                                                 </div>
                                                 <div class="post-content with-background">
                                                     <h2 class="post-title">
-                                                        <a href="./news.html#emali-io-winners-of-the-zurich-hk-innovation-program-local-round">EMALI the Hong Kong Regional Winner for Zurich Innovation World Championship</a></h2>
+                                                        <a
+                                                            href="./news.html#emali-io-winners-of-the-zurich-hk-innovation-program-local-round">EMALI
+                                                            the Hong Kong Regional Winner for Zurich Innovation World
+                                                            Championship</a></h2>
                                                     <div class="post-info">
                                                         <span class="post-date">Nov, 2018</span>
                                                     </div>
-                                                    <a href="./news.html#emali-io-winners-of-the-zurich-hk-innovation-program-local-round">READ MORE <span class="icon-arrow-long-right" style="margin-left: 5px;"></span></a>
+                                                    <a
+                                                        href="./news.html#emali-io-winners-of-the-zurich-hk-innovation-program-local-round">READ
+                                                        MORE <span class="icon-arrow-long-right"
+                                                            style="margin-left: 5px;"></span></a>
                                                 </div>
                                             </article>
                                         </div>
@@ -398,8 +419,7 @@
                                                         data-hover-speed="700" data-hover-bkg-color="#000000"
                                                         data-hover-bkg-opacity="0.3">
                                                         <a class="overlay-link"
-                                                            href="./news.html#2018-fintech-week-expo-hong-kong"
-                                                           >
+                                                            href="./news.html#2018-fintech-week-expo-hong-kong">
                                                             <img src="./images/homeLatestNews/img3.jpeg"
                                                                 alt="2018 FinTech Week Expo Hong Kong" />
                                                         </a>
@@ -407,12 +427,16 @@
                                                 </div>
                                                 <div class="post-content with-background">
                                                     <h2 class="post-title">
-                                                        <a href="./news.html#2018-fintech-week-expo-hong-kong">EMALI Showcases Solutions at 2018 FinTech Week Expo in Hong Kong</a>
+                                                        <a href="./news.html#2018-fintech-week-expo-hong-kong">EMALI
+                                                            Showcases Solutions at 2018 FinTech Week Expo in Hong
+                                                            Kong</a>
                                                     </h2>
                                                     <div class="post-info">
                                                         <span class="post-date">Oct, 2018</span>
                                                     </div>
-                                                    <a href="./news.html#2018-fintech-week-expo-hong-kong">READ MORE<span class="icon-arrow-long-right" style="margin-left: 5px;"></span></a>
+                                                    <a href="./news.html#2018-fintech-week-expo-hong-kong">READ
+                                                        MORE<span class="icon-arrow-long-right"
+                                                            style="margin-left: 5px;"></span></a>
                                                 </div>
                                             </article>
                                         </div>
@@ -421,7 +445,9 @@
                             </div>
                             <div class="row flex">
                                 <div class="column width-12 center">
-                                    <a href="./news.html" class="button bkg-theme bkg-hover-theme color-white color-hover-white hard-shadow">See all our news</a>
+                                    <a href="./news.html"
+                                        class="button bkg-theme bkg-hover-theme color-white color-hover-white hard-shadow">See
+                                        all our news</a>
                                 </div>
                             </div>
                         </div>
@@ -526,6 +552,7 @@
 
     <!-- Js -->
     <script src="./EMALI _ Leaders in the Fintech Evolution_files/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
     <script src="./EMALI _ Leaders in the Fintech Evolution_files/js(1)" type="text/javascript"></script>
     <script src="./EMALI _ Leaders in the Fintech Evolution_files/timber.master.min.js"></script>
 
