@@ -1,0 +1,235 @@
+
+                <!-- Service Section -->
+                <section class="section-block replicable-content" style="	border-bottom: 1px solid #eee !important;">
+                    <div class="row flex mb-50">
+                        <div class="column width-12 center">
+                            <p class="lead">EMALI is an enterprise technology company that develops, licenses, supports,
+                                and delivers fintech software, solutions, and related services to the Asia Pacific
+                                region, specializing in AI, blockchain, cryptography, security, and privacy
+                                technologies.<br><br>Below are some solutions and tools which we offer to our clients.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="container text-center">
+                        <div class="row justify-content-center">
+                            <!-- tableR -->
+                            <div class="col-lg-3 col-md-12 col-sm-12 tableShadowLeftAndRight mb-40-mobile-box-shadow"
+                                style="    height: fit-content;">
+                                <div class="tableR">
+                                    <div class="tableR-header">
+                                        <h2>Basic</h2>
+                                        <h3><sup>$</sup>35<small>/mo.</small></h3>
+                                    </div>
+                                    <div class="tableR-body">
+                                        <ul class="features list-unstyled">
+                                            <li><strong>5</strong> Users</li>
+                                            <li><strong>Unlimited</strong> Storage</li>
+                                            <li><strong>3</strong> E-mail accounts</li>
+                                            <li><strong>5</strong> Subdomains</li>
+                                            <li><strong>1GB</strong> Bandwidth</li>
+                                        </ul>
+                                        <div class="tableR-footer">
+                                            <a href="#formSelect" class="signup btn">Know More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- end tableR -->
+
+                            <!-- tableR -->
+                            <div class="col-lg-3 col-md-12 col-sm-12 pro mb-40-mobile-box-shadow">
+                                <div class="tableR">
+                                    <div class="tableR-header">
+                                        <!-- <div class="ribbon">We <br> Recommend</div> -->
+                                        <h2>Pro</h2>
+                                        <h3><sup>$</sup>59<small>/mo.</small></h3>
+                                    </div>
+                                    <div class="tableR-body">
+                                        <ul class="features list-unstyled">
+                                            <li><strong>10</strong> Users</li>
+                                            <li><strong>Unlimited</strong> Storage</li>
+                                            <li><strong>5</strong> E-mail accounts</li>
+                                            <li><strong>10</strong> Subdomains</li>
+                                            <li><strong>5GB</strong> Bandwidth</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tableR-footer">
+                                        <a href="#formSelect" class="signup btn">Know More</a>
+                                    </div>
+                                </div>
+                            </div><!-- end tableR -->
+
+                            <!-- tableR -->
+                            <div class="col-lg-3 col-md-12 col-sm-12 tableShadowLeftAndRight mb-40-mobile-box-shadow"
+                                style="    height: fit-content;">
+                                <div class="tableR">
+                                    <div class="tableR-header">
+                                        <h2>Advance</h2>
+                                        <h3><sup>$</sup>99<small>/mo.</small></h3>
+                                    </div>
+                                    <div class="tableR-body">
+                                        <ul class="features list-unstyled">
+                                            <li><strong>Unlimited</strong> users</li>
+                                            <li><strong>Unlimited</strong> Storage</li>
+                                            <li><strong>10</strong> E-mail accounts</li>
+                                            <li><strong>unlimited</strong> Subdomains</li>
+                                            <li><strong>10GB</strong> Bandwidth</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tableR-footer">
+                                        <a href="#formSelect" class="signup btn">Know More</a>
+                                    </div>
+                                </div>
+                            </div><!-- end tableR -->
+
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="section-block replicable-content pt-0 pb-110">
+                    <div class="container text-center">
+
+                        <div class="col-md-12 mb-hori-scroll ">
+                            <table class="pricing-table-box">
+                                <tbody>
+                                    <tr>
+                                        <td width="20%" class="pricing-table-box-text">
+                                            <h2>OUR BEST <br /> HOSTING PLANS</h2>
+                                        </td>
+                                        <td width="20%">
+                                            <div class="pricing-table-box-item">
+                                                <div class="pricing-table-box-item-head">
+                                                    <p>Sandbox</p>
+                                                </div>
+                                                <!-- <div class="pricing-table-box-item-price">
+                                                    <p>$50<span>/ yr</span></p>
+                                                </div> -->
+                                            </div>
+                                        </td>
+                                        <td width="20%">
+                                            <div class="pricing-table-box-item">
+                                                <div class="pricing-table-box-item-head">
+                                                    <p>Developer</p>
+
+                                                </div>
+                                                <!-- <div class="pricing-table-box-item-price">
+                                                    <p>$120<span>/ yr</span></p>
+
+                                                </div> -->
+
+                                            </div>
+                                        </td>
+                                        <td width="20%">
+                                            <div class="pricing-table-box-item">
+                                                <div class="pricing-table-box-item-head">
+                                                    <p>Production</p>
+
+                                                </div>
+                                                <!-- <div class="pricing-table-box-item-price">
+                                                    <p>$500<span>/ yr</span></p>
+                                                </div> -->
+
+                                            </div>
+                                        </td>
+                                        <td width="20%">
+                                            <div class="pricing-table-box-item">
+                                                <div class="pricing-table-box-item-head">
+                                                    <p>Enterprise</p>
+
+                                                </div>
+                                                <!-- <div class="pricing-table-box-item-price">
+                                                    <p>$500<span>/ yr</span></p>
+                                                </div> -->
+
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="pricing-table-box-list">
+                                        <td class="first-row">Free Domain</td>
+                                        <td class="second-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                        <td class="third-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                        <td class="fourth-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                        <td class="third-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                    </tr>
+                                    <tr class="pricing-table-box-list">
+                                        <td class="first-row">Websites</td>
+                                        <td class="second-row">1</td>
+                                        <td class="third-row">Unlimited</td>
+                                        <td class="fourth-row">Unlimited</td>
+                                        <td class="third-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                    </tr>
+                                    <tr class="pricing-table-box-list">
+                                        <td class="first-row">Bandwidth</td>
+                                        <td class="second-row">Unlimited</td>
+                                        <td class="third-row">Unlimited</td>
+                                        <td class="fourth-row">Unlimited</td>
+                                        <td class="third-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                    </tr>
+                                    <tr class="pricing-table-box-list">
+                                        <td class="first-row">Disk Space</td>
+                                        <td class="second-row">50GB SSD</td>
+                                        <td class="third-row">150GB SSD</td>
+                                        <td class="fourth-row">Unlimited</td>
+                                        <td class="third-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                    </tr>
+                                    <tr class="pricing-table-box-list">
+                                        <td class="first-row">MySQL Databases</td>
+                                        <td class="second-row">2</td>
+                                        <td class="third-row">10</td>
+                                        <td class="fourth-row">Unlimited</td>
+                                        <td class="third-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                    </tr>
+                                    <tr class="pricing-table-box-list">
+                                        <td class="first-row">Email Addresses</td>
+                                        <td class="second-row">50</td>
+                                        <td class="third-row">500</td>
+                                        <td class="fourth-row">500</td>
+                                        <td class="third-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                    </tr>
+                                    <tr class="pricing-table-box-list">
+                                        <td class="first-row">Advance DNS</td>
+                                        <td class="second-row"><span class="glyphicon glyphicon-remove"></span></td>
+                                        <td class="third-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                        <td class="fourth-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                        <td class="third-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                    </tr>
+                                    <tr class="pricing-table-box-list">
+                                        <td class="first-row">SSL Certificate</td>
+                                        <td class="second-row"><span class="glyphicon glyphicon-remove"></span></td>
+                                        <td class="third-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                        <td class="fourth-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                        <td class="third-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                    </tr>
+                                    <tr class="pricing-table-box-list">
+                                        <td class="first-row">Support</td>
+                                        <td class="second-row">24/7</td>
+                                        <td class="third-row">24/7</td>
+                                        <td class="fourth-row">24/7</td>
+                                        <td class="third-row"><span class="glyphicon glyphicon-ok"></span></td>
+                                    </tr>
+                                    <!-- <tr class="pricing-table-box-list">
+                                        <td class="first-row"></td>
+                                        <td class="second-row">
+                                            <div class="pricing-table-box-item-purchase">
+                                                <button class="btn btn-success btn-block">SIGN UP</button>
+                                            </div>
+                                        </td>
+                                        <td class="third-row">
+                                            <div class="pricing-table-box-item-purchase">
+                                                <button class="btn btn-success btn-block">SIGN UP</button>
+                                            </div>
+                                        </td>
+                                        <td class="fourth-row">
+                                            <div class="pricing-table-box-item-purchase">
+                                                <button class="btn btn-success btn-block">SIGN UP</button>
+                                            </div>
+                                        </td>
+                                    </tr> -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
