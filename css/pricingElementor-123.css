@@ -30,10 +30,6 @@ header p {
   font-size: 1.1em;
 } */
 
-.enterpriseColor {
-  color: #674ea7 !important;
-}
-
 body {
   /* font-family: "Raleway", sans-serif; */
   font-family: "Roboto Condensed", "Helvetica Neue", sans-serif;
@@ -143,6 +139,14 @@ body {
 .tableR a.enterpriseBgColor:hover {
   background-color: #422e73;
   border-color: #422e73;
+}
+
+.enterpriseColor {
+  color: #674ea7 !important;
+}
+
+.enterpriseBg {
+  background-color: #674ea7 !important;
 }
 
 @media screen and (min-width: 991px) {

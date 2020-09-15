@@ -73,7 +73,7 @@
 .pricing-table-box .pricing-table-box-item .pricing-table-box-item-head {
   padding: 10px 5px;
   text-align: center;
-  background-color: #42bfbb !important;
+  background-color: #42bfbb;
   box-shadow: 0 -2px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow: 0 -2px rgba(0, 0, 0, 0.1) inset;
   -webkit-box-shadow: 0 -2px rgba(0, 0, 0, 0.1) inset;
