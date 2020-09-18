@@ -9,9 +9,13 @@ $(window).on("scroll", function () {
     if (el.hasClass("header-background")) {
       $("#scroll-fix1").removeClass("indexHover");
       $("#scroll-fix2").removeClass("indexHover");
+      $("#scroll-fix1").addClass("scrollDownNavbarStyle");
+      $("#scroll-fix2").addClass("scrollDownNavbarStyle");
     }
   } else {
     $("#scroll-fix1").addClass("indexHover");
     $("#scroll-fix2").addClass("indexHover");
+    $("#scroll-fix1").removeClass("scrollDownNavbarStyle");
+    $("#scroll-fix2").removeClass("scrollDownNavbarStyle");
   }
 });
