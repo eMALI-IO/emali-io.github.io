@@ -73,16 +73,18 @@
 .pricing-table-box .pricing-table-box-item .pricing-table-box-item-head {
   padding: 10px 5px;
   text-align: center;
-  background-color: #42bfbb;
-  box-shadow: 0 -2px rgba(0, 0, 0, 0.1) inset;
+  background-color: transparent;
+  color: #42bfbb;
+  /* background-color: #42bfbb; */
+  /* box-shadow: 0 -2px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow: 0 -2px rgba(0, 0, 0, 0.1) inset;
   -webkit-box-shadow: 0 -2px rgba(0, 0, 0, 0.1) inset;
-  -o-box-shadow: 0 -2px rgba(0, 0, 0, 0.1) inset;
+  -o-box-shadow: 0 -2px rgba(0, 0, 0, 0.1) inset; */
 }
 
 .pricing-table-box .pricing-table-box-item .pricing-table-box-item-head p {
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 900;
   line-height: 21px;
   text-transform: uppercase;
   margin-bottom: 0px;
@@ -142,6 +144,18 @@
   border-color: #42bfbb;
 }
 
+.enterpriseColor {
+  color: #674ea7 !important;
+}
+
+.enterpriseBg {
+  background-color: #674ea7 !important;
+}
+
+.enterpriseColor {
+  color: #674ea7 !important;
+}
+
 .btn-success.active.focus,
 .btn-success.active:focus,
 .btn-success.active:hover,
@@ -193,7 +207,48 @@
   border-color: #2ca29f;
 }
 
+@media screen and (max-width: 768px) {
+  .pricing-table-box .pricing-table-box-item .pricing-table-box-item-head p {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .min-25 {
+    height: 50px;
+    width: 115px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pricing-table-box .pricing-table-box-item .pricing-table-box-item-head p {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .min-25 {
+    min-height: 50px !important;
+    min-width: 75px !important;
+    max-height: 50px !important;
+    max-width: 75px !important;
+  }
+
+  .col-head-size {
+    min-height: 50px !important;
+    min-width: 75px !important;
+  }
+}
+
 @media screen and (max-width: 450px) {
+  .min-25 {
+    min-height: 45px !important;
+    min-width: 45px !important;
+  }
+
+  .col-head-size {
+    min-height: 45px;
+    min-width: 45px;
+  }
+
   .mb-hori-scroll {
     overflow-x: scroll;
     overflow-y: hidden;
@@ -201,4 +256,15 @@
     /* margin-right: 24px;
     margin-left: 24px; */
   }
+}
+
+@media screen and (max-width: 320px) {
+  .min-25 {
+    max-height: 35px;
+    min-width: 35px;
+  }
+}
+
+.d-block {
+  display: block;
 }

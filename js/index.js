@@ -7,11 +7,11 @@ $(window).on("scroll", function () {
 
   if (y_scroll_pos > scroll_pos_test) {
     if (el.hasClass("header-background")) {
-      $("#scroll-fix1").removeClass("dropdown-content2");
-      $("#scroll-fix2").removeClass("dropdown-content2");
+      $("#scroll-fix1").removeClass("indexHover");
+      $("#scroll-fix2").removeClass("indexHover");
     }
   } else {
-    $("#scroll-fix1").addClass("dropdown-content2");
-    $("#scroll-fix2").addClass("dropdown-content2");
+    $("#scroll-fix1").addClass("indexHover");
+    $("#scroll-fix2").addClass("indexHover");
   }
 });
