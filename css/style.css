@@ -3959,6 +3959,10 @@ h3 span {
 	color: #fff !important;
   }
 
+  .fs-2rem {
+	  font-size: 2.95rem !important;
+  }
+
 
 @media only screen and (max-width: 768px) {
 	.event-desc-section {
