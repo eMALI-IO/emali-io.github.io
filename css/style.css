@@ -3932,6 +3932,7 @@ h3 span {
 	display: block;
 	font-family: 'Open Sans', 'Helvetica Neue', serif;
 	font-size: 1.1rem !important;
+	border-bottom: rgb(231, 231, 231) 1px solid;
   }
 
   .dropdown-content a:hover {
