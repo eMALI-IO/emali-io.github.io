@@ -145,6 +145,10 @@ header p {
   color: #666;
 }
 
+.mt-33px {
+  margin-top: 33px;
+}
+
 @media screen and (min-width: 991px) {
   .tableR {
     min-height: 522px;
@@ -178,6 +182,10 @@ header p {
 @media screen and (max-width: 991px) {
   .row > div {
     padding: 0 40px;
+  }
+
+  .mt-33px {
+    margin-top: 0px;
   }
 }
 @media screen and (max-width: 990px) {
