@@ -180,7 +180,7 @@ header p {
   }
 }
 @media screen and (max-width: 991px) {
-  .row > div {
+  .content .row > div {
     padding: 0 40px;
   }
 
