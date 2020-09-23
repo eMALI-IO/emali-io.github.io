@@ -60,6 +60,10 @@
             width: 100%;
             height: 100%;
         }
+
+        .row:before {
+            content: "";
+        }
     </style>
     <!-- <script type="text/javascript" charset="UTF-8" src="./EMALI _ Leaders in the Fintech Evolution_files/common.js"></script>
 	<script type="text/javascript" charset="UTF-8" src="./EMALI _ Leaders in the Fintech Evolution_files/util.js"></script> -->
@@ -241,9 +245,9 @@
 
                     <div class="container text-center">
                         <div class="row justify-content-center">
+                            <!-- <div class="col-lg-3"></div>
                             <div class="col-lg-3"></div>
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-3"></div>
+                            <div class="col-lg-3"></div> -->
 
                             <div class="col-lg-3 col-md-12 col-sm-12 tableShadowLeftAndRight mb-40-mobile-box-shadow"
                                 style="    height: fit-content;">
@@ -370,7 +374,9 @@
                             </div><!-- end tableR -->
 
                         </div>
-                        <p class="left"><a href=“mailto:student@emali.io”>If you are a student, please sign up for
+                        <p class="left"><a class="text-dark" href="./dvc-student-discount.html">If you are a student,
+                                please
+                                sign up for
                                 discounts up to
                                 100%</a></p>
                     </div>
@@ -396,7 +402,7 @@
                                 <tbody>
                                     <tr class="">
                                         <td width="20%" class="pricing-table-box-text">
-                                            <h2 class="" style="color: #fff;">Access to VC holder portal</h2>
+                                            <h2 class="" style="color: #fff;">Access to DVC holder portal</h2>
                                         </td>
                                         <td width="20%">
                                             <div class="pricing-table-box-item">
@@ -477,49 +483,49 @@
                                     </tr>
 
                                     <tr class="pricing-table-box-list">
-                                        <td class="first-row">Access to VC holder portal</td>
+                                        <td class="first-row">Access to DVC holder portal</td>
                                         <td class="second-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                         <td class="third-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                         <td class="fourth-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                         <td class="third-row min-25"><span class="glyphicon glyphicon-"></span></td>
                                     </tr>
                                     <tr class="pricing-table-box-list">
-                                        <td class="first-row">Access to VC issuer portal</td>
+                                        <td class="first-row">Access to DVC issuer portal</td>
                                         <td class="second-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                         <td class="third-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                         <td class="fourth-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                         <td class="third-row min-25"><span class="glyphicon glyphicon-"></span></td>
                                     </tr>
                                     <tr class="pricing-table-box-list">
-                                        <td class="first-row">Access to VC verifier portal</td>
+                                        <td class="first-row">Access to DVC verifier portal</td>
                                         <td class="second-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                         <td class="third-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                         <td class="fourth-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                         <td class="third-row min-25"><span class="glyphicon glyphicon-"></span></td>
                                     </tr>
                                     <tr class="pricing-table-box-list">
-                                        <td class="first-row">Customizable VC holder portal</td>
+                                        <td class="first-row">Customizable DVC holder portal</td>
                                         <td class="second-row min-25"><span class="glyphicon glyphicon-"></span></td>
                                         <td class="third-row min-25"><span class="glyphicon glyphicon-"></span></td>
                                         <td class="fourth-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                         <td class="third-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                     </tr>
                                     <tr class="pricing-table-box-list">
-                                        <td class="first-row">Customizable VC issuer portal</td>
+                                        <td class="first-row">Customizable DVC issuer portal</td>
                                         <td class="second-row min-25"><span class="glyphicon glyphicon-"></span></td>
                                         <td class="third-row min-25"><span class="glyphicon glyphicon-"></span></td>
                                         <td class="fourth-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                         <td class="third-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                     </tr>
                                     <tr class="pricing-table-box-list">
-                                        <td class="first-row">Customizable VC verifier portal</td>
+                                        <td class="first-row">Customizable DVC verifier portal</td>
                                         <td class="second-row min-25"><span class="glyphicon glyphicon-"></span></td>
                                         <td class="third-row min-25"><span class="glyphicon glyphicon-"></span></td>
                                         <td class="fourth-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                         <td class="third-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                     </tr>
                                     <tr class="pricing-table-box-list">
-                                        <td class="first-row">API key for accessing VC API</td>
+                                        <td class="first-row">API key for accessing DVC API</td>
                                         <td class="second-row min-25"><span class="glyphicon glyphicon-"></span></td>
                                         <td class="third-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
                                         <td class="fourth-row min-25"><span class="glyphicon glyphicon-ok"></span></td>
@@ -764,12 +770,12 @@
                                         <div class="form-row">
                                             <div class="form-group col-md-6">
                                                 <!-- <label for="inputEmail4">Email</label> -->
-                                                <input type="email" name="email" class="form-control" id=""
+                                                <input type="email" name="email" class="form-control" id="" required
                                                     placeholder="Email">
                                             </div>
                                             <div class="form-group col-md-6">
                                                 <!-- <label for="inputPassword4">Name</label> -->
-                                                <input type="name" name="name" class="form-control" id=""
+                                                <input type="name" name="name" class="form-control" id="" required
                                                     placeholder="Name">
                                             </div>
                                         </div>
@@ -778,12 +784,13 @@
                                         <div class="form-row">
                                             <div class="form-group col-md-6">
                                                 <!-- <label for="inputAddress2">Message</label> -->
-                                                <input type="text" name="message" class="form-control" id=""
+                                                <input type="text" name="message" class="form-control" id="" required
                                                     placeholder="Message">
                                             </div>
 
                                             <div class="form-group col-md-6">
-                                                <select id="inputState" class="form-control" name="selectedPrice">
+                                                <select id="inputState" class="form-control" name="selectedPrice"
+                                                    required>
                                                     <option selected>Price Plan</option>
                                                     <option>Sandbox</option>
                                                     <option>Developer</option>
@@ -793,29 +800,35 @@
                                             </div>
                                         </div>
 
-                                        <!-- <div class="form-row">
-                                            <div class="form-group col-md-6">
-                                                <p>
-                                                    Join Our Email List
-                                                </p>
-                                                <p>
-                                                    I would like to subscribe to updates from Evernym.
-                                                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                                                    <label for="vehicle2"> I have a car</label><br>
-                                                </p>
 
+                                        <div class="row mt-4">
+                                            <div class="col-md-6 col-sm-12"
+                                                style="width: 100% !important; padding: 0px 14px;">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input name="privacyPolicy" type="checkbox" required
+                                                        class="custom-control-input" id="customCheckDisabled">
+                                                    <label class="custom-control-label text-left"
+                                                        for="customCheckDisabled">I
+                                                        have read and agree to the
+                                                        <!-- <a href="terms.html">Terms</a>, -->
+                                                        <a href="privacy-policy.html">Privacy Policy</a>.</label>
+                                                </div>
+
+                                                <div class="custom-control custom-checkbox mb-5">
+                                                    <input name="subscribe" type="checkbox" class="custom-control-input"
+                                                        id="customCheckDisabled2">
+                                                    <label class="custom-control-label text-left mt-4"
+                                                        for="customCheckDisabled2">I would like to subscribe to EMALI's
+                                                        monthly newsletter and <br> receive product news and webinar
+                                                        invitations.</label>
+                                                </div>
                                             </div>
 
-                                            <div class="form-group col-md-6">
-                                            </div>
-                                        </div> -->
-
-                                        <div class="row justify-content-center">
-                                            <div class="col-md-6 col-sm-12 px-0 mt-3 mt-md-0">
+                                            <div class="col-md-6 col-sm-12 px-0 mt-0 mt-md-0">
                                                 <button type="submit" class="btn btn-primary2 w-100">Submit</button>
                                             </div>
-
                                         </div>
+
                                     </form>
                                 </div>
                             </div>
