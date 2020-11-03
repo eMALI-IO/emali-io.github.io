@@ -3799,6 +3799,16 @@ h3 span {
     background-size: contain;
     margin-left: 10px;
 }
+
+.al-logo {
+    background: url(../images/al-logo.png) no-repeat;
+    width: 40px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    margin-left: 10px;
+}
+
 .overlay-navigation-inner .v-align-middle,
 .overlay-navigation-scroll-pane {
 	width: 100%;
