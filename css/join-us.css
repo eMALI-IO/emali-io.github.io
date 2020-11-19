@@ -1,0 +1,89 @@
+.margin-b-60 {
+  margin-bottom: 60px !important;
+}
+
+.apply-btn {
+  color: #42bfbb;
+}
+
+.btn-theme-sm {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 15px 30px;
+}
+
+.btn-white-brd {
+  color: rgb(255, 255, 255);
+  background: transparent;
+  border-color: #42bfbb;
+  border-width: 1px;
+}
+
+.btn-theme {
+  position: relative;
+  display: inline-block;
+  line-height: 1.4;
+  text-align: center;
+  background-image: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  border-style: solid;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.btn-attn {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.15);
+  color: rgb(255, 255, 255);
+  background: #42bfbb;
+  border-width: 1px;
+  border-color: #42bfbb;
+}
+
+.btn-white-brd:hover,
+.btn-white-brd:focus,
+.btn-white-brd.focus {
+  color: rgb(255, 255, 255) !important;
+  background: #42bfbb;
+  border-color: transparent;
+}
+
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme.focus {
+  text-decoration: none;
+}
+
+.btn-theme:hover {
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.btn-theme2:hover {
+  background-color: rgb(255, 255, 255);
+  color: #42bfbb;
+  transition-duration: 300ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
